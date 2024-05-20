@@ -43,7 +43,7 @@ featureFlags:
       environments:
       - identifier: env
         default:
-          onVariation: "true"
+          onVariation: "false"
           offVariation: "false"
         state: "on"
         targetRules:

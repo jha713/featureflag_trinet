@@ -25,6 +25,11 @@ featureFlags:
         - targets:
           - identifier: Naresh
           variation: "true"
+      - identifier: test
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: GitHubActionsFlag
       identifier: githubactionsflag
@@ -50,6 +55,11 @@ featureFlags:
         - targets:
           - identifier: Naresh
           variation: "true"
+      - identifier: test
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: sdsds
       identifier: sdsds
@@ -67,6 +77,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: test
         default:
           onVariation: "false"
           offVariation: "false"
